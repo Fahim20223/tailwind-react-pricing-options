@@ -1,5 +1,13 @@
 import React, { use } from "react";
-import { Bar, BarChart, Legend, Tooltip, XAxis, YAxis } from "recharts";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 
 const MarksChart = ({ marksPromise }) => {
   const marksRes = use(marksPromise);
@@ -30,10 +38,10 @@ const MarksChart = ({ marksPromise }) => {
       <BarChart width={500} height={300} data={marksDataChart}>
         <XAxis dataKey={"name"}></XAxis>
         <YAxis></YAxis>
-        <Bar dataKey={"average"} fill="green"></Bar>
-        <Bar dataKey={"chemistry"} fill="blue"></Bar>
         <Tooltip></Tooltip>
         <Legend />
+        <Bar dataKey={"average"} fill="green"></Bar>
+        <Bar dataKey={"chemistry"} fill="blue"></Bar>
       </BarChart>
     </div>
   );
