@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Khan",
+    "marks": {
+      "physics": 85,
+      "chemistry": 78,
+      "math": 88,
+      "biology": 90
+    }
+  },
+  {
+    "id": 2,
+    "name": "Sophia Rahman",
+    "marks": {
+      "physics": 92,
+      "chemistry": 88,
+      "math": 95,
+      "biology": 84
+    }
+  },
+  {
+    "id": 3,
+    "name": "Noah Hasan",
+    "marks": {
+      "physics": 75,
+      "chemistry": 80,
+      "math": 85,
+      "biology": 70
+    }
+  },
+  {
+    "id": 4,
+    "name": "Maya Islam",
+    "marks": {
+      "physics": 89,
+      "chemistry": 76,
+      "math": 81,
+      "biology": 92
+    }
+  },
+  {
+    "id": 5,
+    "name": "Ethan Chowdhury",
+    "marks": {
+      "physics": 68,
+      "chemistry": 72,
+      "math": 70,
+      "biology": 65
+    }
+  }
+]
